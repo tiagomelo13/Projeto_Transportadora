@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', 'Arial';
+  font-size: 13px;
+  overflow-x: hidden;
+}
+header {
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.877);
+}
+.header {
+  max-width: 1140px;
+  height: 100px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 100px;
+}
+.logoImg {
+  width: 150px;
+  height: 80px;
+  background-image: url('../images/LogoAtual.PNG');
+  background-size: cover;
+  border-radius: 15px;
+}
+.menu {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+.menu ul,
+.menu li {
+  list-style: none;
+}
+.menu ul {
+  display: flex;
+}
+.menu li a {
+  padding-left: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+  display: flex;
+  height: 100px;
+  align-items: center;
+  border-bottom: 5px solid #1f1f1f;
+}
+.menu li a:hover,
+.menu .active a {
+  color: rgba(204, 204, 204, 0.432);
+}
+
+.banner1 {
+  height: calc(100vh - 100px);
+  background-color: #333;
+  background-image: url('../images/BgAtual.PNG');
+  background-size: cover;
+  background-position: center;
+}
+.banner2 {
+  height: calc(100vh - 100px);
+  background-color: #333;
+  background-image: url('https://cdn.cnt.org.br/diretorioVirtualPrd/40e5968e-eed0-429c-856e-68a48fc76f3c_CorteRetangular.PNG');
+  background-size: cover;
+  background-position: center;
+}
+
+.banner3 {
+  height: calc(100vh - 100px);
+  background-color: #333;
+  background-image: url('../images/relogio.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.banner .sliders {
+  width: 1000vw;
+  height: 100%;
+}
+.banner .slide {
+  width: 100vw;
+  height: 100%;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.banner .slideArea {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.banner h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 50px;
+}
+.banner h1 span {
+  color: #ccc;
+}
+.banner h2 {
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.banner a {
+  display: block;
+  background-color: #1f1f1f;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 25px;
+  margin-top: 30px;
+}
+.banner .slidersPointers {
+  width: 100vw;
+  height: 20px;
+  position: absolute;
+  margin-top: -50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner .pointer {
+  width: 12px;
+  height: 12px;
+  border: 2px solid #f8a60a;
+  border-radius: 8px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.banner .pointer.active {
+  background-color: #f8a60a;
+}
+
+.default {
+  width: 100vw;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.default .section-title,
+.default .section-desc {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.default .section-title {
+  font-size: 20px;
+}
+.default .section-desc {
+  font-size: 13px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.default .section-body {
+  max-width: 1140px;
+  margin: auto;
+}
+.default.ligth {
+  background-color: #f7f7f7;
+}
+.default .ligth .section-title,
+.default.ligth .section-desc {
+  color: #000;
+}
+.default.dark {
+  background-color: #000;
+}
+.default.dark .section-title,
+.default.dark .section-desc {
+  color: #fff;
+}
+.display {
+  display: none;
+}

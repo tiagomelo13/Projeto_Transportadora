@@ -8,7 +8,6 @@ function mudarBanner2(){
   limpar();
 document.querySelector('.banner').classList.add('banner2');
 document.querySelectorAll('.pointer')[1].classList.add('active');
-document.querySelector('.slide').classList.add('display');
 }
 function mudarBanner3(){
   limpar();

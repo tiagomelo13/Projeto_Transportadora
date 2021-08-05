@@ -22,3 +22,11 @@ function limpar(){
   document.querySelectorAll('.pointer')[1].classList.remove('active');
   document.querySelectorAll('.pointer')[2].classList.remove('active');
 }
+function abrirMenu(){
+var menuEmpresa = document.querySelector('.segundo').style.display='block';
+var subMenu1 = document.querySelector('.subMenu').style.display='block';
+
+}
+function fecharMenu(){
+  var menuEmpresa = document.querySelector('.segundo').style.display='none';
+  }

@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: 'Montserrat', 'Arial';
   font-size: 13px;
@@ -36,16 +37,25 @@ body {
   background-size: cover;
   border-radius: 15px;
 }
+.lupa {
+  width: 35px;
+  height: 35px;
+  background-image: url('../images/lupa\ \(2\).png');
+  background-size: cover;
+  border-radius: 15px;
+  margin: 19px;
+}
 .menu {
   display: flex;
   flex-direction: column;
   cursor: pointer;
 }
 .traco {
-  margin-bottom: 7px;
-  width: 40px;
-  height: 4px;
-  border: 4px solid #f8a60a;
+  margin-bottom: 5px;
+  width: 35px;
+  height: 2.5px;
+  border: 2.5px solid #f8a60a;
+  background-color: #f8a60a;
 }
 
 .segundo {
